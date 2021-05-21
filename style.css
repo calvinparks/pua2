@@ -183,6 +183,7 @@ button:hover {
 	font-size: 1.75em;
 }
 
+
 .products-container {
 	height: 600px;
 	overflow-y: scroll;
@@ -190,6 +191,11 @@ button:hover {
 	/* border: 22px solid #000055; */
 }
 
+.scroll-hidden {
+
+	overflow-y:hidden;
+
+}
 
 /** ************************************************* **/
 /** Modal Code **/

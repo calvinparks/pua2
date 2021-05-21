@@ -23,6 +23,8 @@ const app = Vue.createApp({
         
         setTimeout(ready,1000) // resetClickEvents for each of the  newly loaded products.
         document.getElementById('modal-button').style.display ="block";
+        var element = document.getElementById("products-container");
+        element.classList.remove("scroll-hidden");
       },
     },
   })
